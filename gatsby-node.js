@@ -1,5 +1,21 @@
 const path = require('path');
 
+/**
+ * Include Netlify CMS in Gatsby build process.
+ */
+exports.modifyWebpackConfig = ({ config }) => {
+  config.merge({
+    entry: {
+      cms: './cms/cms.js',
+    },
+    resolve: {
+      alias: {
+        Site: path.resolve(__dirname, 'src/'),
+      }
+    },
+  })
+}
+
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
 

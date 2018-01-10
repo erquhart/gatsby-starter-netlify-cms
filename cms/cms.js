@@ -1,13 +1,13 @@
 import React from 'react'
 import CMS from 'netlify-cms'
 
-import Features from 'site/components/Features'
-import Testimonials from 'site/components/Testimonials'
-import Pricing from 'site/components/Pricing'
+import Features from 'Site/components/Features'
+import Testimonials from 'Site/components/Testimonials'
+import Pricing from 'Site/components/Pricing'
 
-import { AboutPageTemplate } from 'site/templates/about-page';
-import { ProductPageTemplate } from 'site/templates/product-page';
-import { BlogPostTemplate } from 'site/templates/blog-post';
+import { AboutPageTemplate } from 'Site/templates/about-page';
+import { ProductPageTemplate } from 'Site/templates/product-page';
+import { BlogPostTemplate } from 'Site/templates/blog-post';
 
 const AboutPagePreview = ({ entry, widgetFor }) =>
   <AboutPageTemplate title={entry.getIn(['data', 'title'])} content={widgetFor('body')} />;
