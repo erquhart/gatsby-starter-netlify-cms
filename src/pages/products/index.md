@@ -2,7 +2,7 @@
 templateKey: product-page
 title: Our Coffee
 image: >-
-  http://res.cloudinary.com/erquhart/image/upload/v1536618600/pexels-photo-302899.jpeg.jpg
+  http://res.cloudinary.com/erquhart/image/upload/v1536619382/Espresso_20Macchiato_20by_20Nespresso.jpg
 heading: What we offer
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
