@@ -10,6 +10,7 @@ media_library:
   config:
     cloud_name: erquhart
     api_key: 293667689287914
+    username: shawn@erquh.art
 
 collections:
   - name: "blog"
