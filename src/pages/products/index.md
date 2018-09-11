@@ -2,7 +2,7 @@
 templateKey: product-page
 title: Our Coffee
 image: >-
-  http://res.cloudinary.com/erquhart/image/upload/c_crop,g_auto,w_auto/v1536703515/a-woman-holding-a-cup-of-coffee.jpg
+  http://res.cloudinary.com/erquhart/image/upload/c_crop,f_auto,g_auto,q_auto,w_1100/v1536703515/a-woman-holding-a-cup-of-coffee.jpg
 heading: What we offer
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
